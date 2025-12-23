@@ -100,7 +100,7 @@ It integrates all buffered edits, rewrites the file, and refreshes the terminal 
 
 ## 🧱 Architecture Diagram
 
-```mermaid
+```
 flowchart TD
 
     subgraph UserA["User A Process"]
