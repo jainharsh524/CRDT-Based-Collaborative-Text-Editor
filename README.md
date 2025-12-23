@@ -1,4 +1,4 @@
-# 🧩 Collaborative Lock-Free Text Editor
+# Collaborative Lock-Free Text Editor
 
 A **real-time collaborative text editor** built entirely with **UNIX system programming** concepts —  
 using **Shared Memory (POSIX shm)**, **Named Pipes (FIFOs)**, and **atomic copy-on-write synchronization**.  
@@ -211,7 +211,7 @@ If you’re on Linux, replace `macos` in the filename with `linux` if your file 
 
 ---
 
-## 🔄 Execution Flow
+##  Execution Flow
 
 1. User registers in shared memory.
 2. Listener thread starts reading its FIFO.
@@ -224,7 +224,7 @@ If you’re on Linux, replace `macos` in the filename with `linux` if your file 
 
 ---
 
-## ⚡ Error Handling
+## Error Handling
 
 * All system calls (`open`, `mmap`, `shm_open`, `write`) are validated.
 * Shared memory is reinitialized automatically if corrupted.
@@ -234,7 +234,7 @@ If you’re on Linux, replace `macos` in the filename with `linux` if your file 
 
 ---
 
-## 🧭 Future Improvements
+## Future Improvements
 
 * Implement **socket-based networking** for collaboration across machines.
 * Add **fine-grained merging** (character-level instead of line-level).
@@ -248,8 +248,7 @@ If you’re on Linux, replace `macos` in the filename with `linux` if your file 
 
 **Harsh Jain**
 *Operating Systems Project – Collaborative Lock-Free Text Editor*
-📅 November 2025
-💡 Built with: MacOS, C++17, POSIX Shared Memory, Named Pipes, pthreads, atomic operations.
+Built with: MacOS, C++17, POSIX Shared Memory, Named Pipes, pthreads, atomic operations.
 
 ---
 
