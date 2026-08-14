@@ -1,0 +1,16 @@
+# Build
+CRDT
+*.o
+*.out
+a.out
+
+# Editor / OS
+.DS_Store
+.vscode/
+*.swp
+*~
+
+# Runtime artifacts
+*_doc.txt
+/tmp/pipe_*
+/tmp/crdt_*
